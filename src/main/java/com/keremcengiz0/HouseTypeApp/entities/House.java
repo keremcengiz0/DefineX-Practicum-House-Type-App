@@ -10,8 +10,8 @@ public class House extends BaseEntity {
     @Override
     public String toString() {
         return "House{" +
-                "price=" + getPrice() +
-                ", squareMeters=" + getSquareMeters() +
+                "price=" + getPrice() + " ₺" +
+                ", squareMeters=" + getSquareMeters() + " m2" +
                 ", roomCount=" + getRoomCount() +
                 ", salonCount=" + getSalonCount() +
                 '}';

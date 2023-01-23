@@ -13,8 +13,8 @@ public class SummerHouse extends BaseEntity{
     @Override
     public String toString() {
         return "Summer House{" +
-                "price=" + getPrice() +
-                ", squareMeters=" + getSquareMeters() +
+                "price=" + getPrice() + " ₺" +
+                ", squareMeters=" + getSquareMeters() + " m2" +
                 ", roomCount=" + getRoomCount() +
                 ", salonCount=" + getSalonCount() +
                 '}';

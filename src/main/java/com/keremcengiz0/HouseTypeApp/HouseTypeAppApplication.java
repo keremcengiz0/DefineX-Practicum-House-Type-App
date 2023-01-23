@@ -43,15 +43,15 @@ public class HouseTypeAppApplication {
 		realEstateService.addSummerHouse(summerHouse3);
 
 		System.out.println("-------------------------------------------------------------------------------------");
-		System.out.println("Total price of all houses: " + realEstateService.getTotalPriceHouses());
-		System.out.println("Total price of all villas: " + realEstateService.getTotalPriceVillas());
-		System.out.println("Total price of all summer houses: " + realEstateService.getTotalPriceSummerHouses());
-		System.out.println("Total price of all properties: " + realEstateService.getTotalPriceAll());
+		System.out.println("Total price of all houses: " + realEstateService.getTotalPriceHouses() + " ₺");
+		System.out.println("Total price of all villas: " + realEstateService.getTotalPriceVillas() + " ₺");
+		System.out.println("Total price of all summer houses: " + realEstateService.getTotalPriceSummerHouses() + " ₺");
+		System.out.println("Total price of all properties: " + realEstateService.getTotalPriceAll() + " ₺");
 		System.out.println("-------------------------------------------------------------------------------------");
-		System.out.println("Average square meters of all houses: " + realEstateService.getAverageSquareHouses());
-		System.out.println("Average square meters of all villas: " + realEstateService.getAverageSquareVillas());
-		System.out.println("Average square meters of all summer houses: " + realEstateService.getAverageSquareSummerHouses());
-		System.out.println("Average square meters of all properties: " + realEstateService.getAverageSquareAll());
+		System.out.println("Average square meters of all houses: " + realEstateService.getAverageSquareHouses() + " m2");
+		System.out.println("Average square meters of all villas: " + realEstateService.getAverageSquareVillas() + " m2");
+		System.out.println("Average square meters of all summer houses: " + realEstateService.getAverageSquareSummerHouses() + " m2");
+		System.out.println("Average square meters of all properties: " + realEstateService.getAverageSquareAll() + " m2");
 		System.out.println("-------------------------------------------------------------------------------------");
 
 		List<BaseEntity> filteredProperties = realEstateService.filterByRoomAndSalonCount(4, 2);

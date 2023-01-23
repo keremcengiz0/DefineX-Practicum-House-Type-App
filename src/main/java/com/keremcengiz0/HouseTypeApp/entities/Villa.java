@@ -11,8 +11,8 @@ public class Villa extends BaseEntity{
     @Override
     public String toString() {
         return "Villa{" +
-                "price=" + getPrice() +
-                ", squareMeters=" + getSquareMeters() +
+                "price=" + getPrice() + " ₺" +
+                ", squareMeters=" + getSquareMeters() + " m2" +
                 ", roomCount=" + getRoomCount() +
                 ", salonCount=" + getSalonCount() +
                 '}';
